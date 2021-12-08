@@ -14,11 +14,11 @@
 
 
 def solution(n):
-    # three =int(n,3)
-    # reverse_three = "".join(reversed(three))
-    #
-    # ten = int(reverse_three,10)
-    # return ten
+    three =int(n,3)
+    reverse_three = "".join(reversed(three))
+
+    ten = int(reverse_three,10)
+    return ten
 
 
 

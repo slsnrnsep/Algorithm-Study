@@ -16,16 +16,16 @@
 inputNum = result = int(input())
 count = 0
 
-while(1):
-    a = result//10
-    b = result%10
-    c = a+b
+while (1):
+    a = result // 10  # 99 // 10 = 9
+    b = result % 10  # 26 % 10 = 9
 
-    result=int(str(b)+str(c%10))
+    c = a + b
 
-    count+=1
+    result = int(str(b) + str(c % 10))
+    count += 1
 
-    if(inputNum==result):
+    if (inputNum == result):
         break
 
 print(count)
