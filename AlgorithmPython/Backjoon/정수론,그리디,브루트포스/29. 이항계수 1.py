@@ -6,7 +6,8 @@ N, K = map(int, input().split()) # 자연수 N과 정수 K 입력
 
 # 팩토리얼 함수
 def fact(N) :
-    if N<=1 : return 1
+    if N<=1 :
+        return 1
 
     return N * fact(N-1)
 
